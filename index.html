@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Página Principal</title>
+<link rel="stylesheet" href="css/index.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <div class="logo">ACADEMIA.WEB</div>
+</header>
+
+<div class="tabs">
+    <div class="tab">Home</div>
+    <div class="tab">Registro</div>
+    <div class="tab">Aulas</div>
+    <div class="tab">Financeiro</div>
+    
+</div>
+
+<div class="cadastro">
+    <form action="/processar_cadastro" method="POST">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+    
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" required>
+    
+        <label for="endereco">Endereço:</label>
+        <input type="text" id="endereco" name="endereco" required>
+    
+        <label for="cpf">CPF:</label>
+        <input type="text" id="cpf" name="cpf" required>
+    
+        <button type="submit">CADASTRAR</button>
+    </form>
+</div>
+
+
+
+
+</body>
+</html>
+

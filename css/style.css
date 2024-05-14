@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right, #1100fc, #666666);
+    }
+
+.jaro {
+font-family: "Jaro", sans-serif;
+font-optical-sizing: auto;
+font-weight: 400;
+font-style: normal;
+}
+  
+.login-container {
+text-align: center;
+background-color: #fff;
+padding: 60px;
+border: 1px solid #ccc;
+border-radius: 5px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: "Jaro", sans-serif;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 8px;
+    background-color: #1100fc;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .logo {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%; /* Opcional: ajuste a largura conforme necessário */
+    z-index: 1000; 
+   
+  }
+
+  .logo img {
+    border-radius: 50%; /* Deixa a imagem redonda */
+  }
